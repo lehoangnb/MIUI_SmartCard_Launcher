@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmarCard</string>
+    <string name="setting_main">Cài đặt</string>
+    <string name="start_tsmclient">Mở SmartCard</string>
+    <string name="app_decs">Cách đơn giản nhất đển quản lý SmartCard mà không cần Mi Wallet</string>
+</resources>

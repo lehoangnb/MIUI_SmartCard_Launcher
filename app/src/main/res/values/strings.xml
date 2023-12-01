@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SmarCard</string>
+    <string name="setting_main">Setting</string>
+    <string name="start_tsmclient">Start SmartCard</string>
+    <string name="app_decs">Simplest app to control SmartCard app without Mi Wallet</string>
+</resources>
