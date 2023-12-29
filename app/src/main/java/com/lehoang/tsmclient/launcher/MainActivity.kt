@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
         setContentView(R.layout.activity_main)
 
-        val btnOpen = findViewById<Button>(R.id.setting)
-        btnOpen.setOnClickListener {
+        val btnSetting = findViewById<Button>(R.id.setting)
+        btnSetting.setOnClickListener {
             val url = "https://tsmclient.miui.com?action=uni_settings&type=0&source_channel=wallet"
             val tsmclient = Intent(Intent.ACTION_VIEW)
             tsmclient.setPackage("com.miui.tsmclient")
@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(tsmclient)
         }
 
-        val btnSetting = findViewById<Button>(R.id.open_tsmclient)
-        btnSetting.setOnClickListener {
+        val btnOpen = findViewById<Button>(R.id.open_tsmclient)
+        btnOpen.setOnClickListener {
             val url = "tsmclient://swiping"
             val tsmclient = Intent(Intent.ACTION_VIEW)
             //tsmclient.setPackage("com.miui.tsmclient")
